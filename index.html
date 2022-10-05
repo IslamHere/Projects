@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script defer src="./script.js"></script>
+    <title>Square roots test</title>
+</head>
+<body>
+    <div class="container">
+        <div class="streak">Streak: 0</div>
+        <div class="range">
+            <input min="1" value="1" class="input rng-min" type="number">
+            <span>-</span>
+            <input min="1" value="99" class="input rng-max" type="number">
+        </div>
+        <div class="root"></div>
+        <div class="answer">
+            <label class="answer-label" for="answer">Answer:</label>
+            <input name="answer" class="input answer-input" type="text">
+            <button onclick="submit()" class="btn submit">Submit</button>
+            <button onclick="next()" class="btn next">Next</button>
+        </div>
+        <div class="output"></div>
+    </div>
+</body>
+</html>
